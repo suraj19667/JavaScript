@@ -18,7 +18,7 @@ let username=localstorage.getItem("Name")
 let userage=localstorage.getItem("Age")
 show.innerHTML=`Welcome ${username} and Your Age is ${userage}`
 
-// show.innerHTML=localStorage.getItem("Name")
+show.innerHTML=localStorage.getItem("Name")
 
 
 

@@ -1,0 +1,129 @@
+/* CSS Variables */
+:root {
+    --primary: #6c5ce7;
+    --secondary: #a29bfe;
+    --dark: #2d3436;
+    --light: #f5f6fa;
+    --success: #00b894;
+    --error: #d63031;
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form Container */
+.form-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+}
+
+/* Form Header */
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h1 {
+    color: var(--dark);
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 5px;
+    position: relative;
+
+}
+
+.form-group input {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+    background-color: white;
+}
+
+/* Form Footer & Button */
+.form-footer {
+    margin-top: 30px;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .form-container {
+        padding: 30px 20px;
+    }
+}

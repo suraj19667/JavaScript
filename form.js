@@ -1,6 +1,8 @@
 
 let val=()=>{
     
+   
+
    let inputname= document.querySelector("#name").value
    let inputnumber=document.querySelector("#number").value
    let inputemail=document.querySelector("#email").value

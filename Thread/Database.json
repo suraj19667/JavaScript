@@ -1,0 +1,39 @@
+{
+
+    "Hotel": [{
+        
+        "Name":"Suraj",
+        "Age":21,
+        "Checking":"21-05-2025",
+        "Checkout":"22-05-2025",
+        "City":"Bhopal",
+        "Person":4,
+        "Price":2000
+        
+    },{
+        "Name":"rahul",
+        "Age":24,
+        "Checking":"24-05-2025",
+        "Checkout":"26-05-2025",
+        "City":"pune",
+        "Person":2,
+        "Price":1000
+    },{
+        "Name":"suresh",
+        "Age":21,
+        "Checking":"29-05-2025",
+        "Checkout":"30-05-2025",
+        "City":"delhi",
+        "Person":3,
+        "Price":1500
+    },{
+        "Name":"shyam",
+        "Age":24,
+        "Checking":"1-05-2025",
+        "Checkout":"2-05-2025",
+        "City":"mumbai",
+        "Person":4,
+        "Price":2000
+    }]
+
+}

@@ -17,9 +17,10 @@ let fetchData = async () => {
           <td>${e.Checkout}</td>
           <td>${e.City}</td>
           <td>${e.Person}</td>
-          <td>${e.Price}</td>
+          <td>${e.Price*e.Person}</td>
 
           <td onclick="Del('${e.id}')">Delete</td>
+          <td onclick="Formopen('${e.id}')">Update</td>
 
         </tr>
       `
@@ -31,6 +32,7 @@ let fetchData = async () => {
 let url = `http://localhost:3000/Hotel/${id}`
 
 fetch(url,{method:"DELETE"})
+
 
   }
 fetchData();

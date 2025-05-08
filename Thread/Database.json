@@ -1,24 +1,44 @@
 {
   "Hotel": [
     {
-      "Name": "suresh",
-      "Age": 21,
-      "Checking": "29-05-2025",
-      "Checkout": "30-05-2025",
-      "City": "delhi",
-      "Person": 3,
-      "Price": 1500,
-      "id": "f33c"
+      "Name": "suraj",
+      "Age": "24",
+      "Checking": "1-05-2025",
+      "Checkout": "2-05-2025",
+      "City": "Bihar",
+      "Person": "3",
+      "Price": 500,
+      "id": "7ceb"
     },
     {
-      "Name": "shyam",
+      "Name": "rahul",
       "Age": 24,
       "Checking": "1-05-2025",
       "Checkout": "2-05-2025",
-      "City": "mumbai",
+      "City": "nashik",
       "Person": 4,
       "Price": 2000,
       "id": "7ceb"
+    },
+    {
+      "id": "6d84",
+      "Name": "tahir",
+      "Age": "23",
+      "Checking": "4",
+      "Checkout": "6",
+      "City": "Bhopal",
+      "Person": "5",
+      "Price": 500
+    },
+    {
+      "Name": "ramesh",
+      "Age": "4",
+      "Checking": "76",
+      "Checkout": "66",
+      "City": "Bihar",
+      "Person": "7",
+      "Price": 500,
+      "id": "52a1"
     }
   ]
 }

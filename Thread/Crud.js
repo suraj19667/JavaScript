@@ -19,7 +19,7 @@ let fetchData = async () => {
           <td>${e.Checkout}</td>
           <td>${e.City}</td>
           <td>${e.Person}</td>
-          <td>${e.Price*Person}</td>
+          <td>${e.Price*e.Person}</td>
 
           <td onclick="Del('${e.id}')">Delete</td>
           <td onclick="Formopen('${e.id}')">Update</td>
@@ -64,8 +64,8 @@ let Book=()=>{
         Checking: Checking,
         Checkout: Checkout,
         City: City,
-        Person: Person
-        // Price: 500
+        Person: Person,
+        Price:Price
       })
     })
     location.href="Crud.html"
@@ -124,7 +124,7 @@ let update=(id)=>{
       City:upcity,
       Person:upperson,
       Price:500
-    })
+        })
   })
   return false
 }

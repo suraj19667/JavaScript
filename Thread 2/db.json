@@ -1,0 +1,14 @@
+{
+  "user": [
+    {
+      "Name": "Kanis",
+      "Age": "20",
+      "Check_in": "21-12-2025",
+      "Check_out": "31-12-2025",
+      "Person": 5,
+      "Price": 5000,
+      "City": "Bhopal",
+      "id": "32a9"
+    }
+  ]
+}

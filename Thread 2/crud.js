@@ -120,7 +120,7 @@ let Formopen = async (id) => {
 
 
 
-let Update = (id) => {
+let UpdateData = (id) => {
   let url = `http://localhost:3000/user/${id}`
   let name = document.querySelector("#upname").value;
   let age = document.querySelector("#upage").value;

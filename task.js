@@ -6,4 +6,3 @@ let okk=()=>{
         console.log("Suraj Yadav")        
     }, 3000);
 }
- 

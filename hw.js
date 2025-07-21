@@ -18,20 +18,18 @@
 // document.querySelector('#text')
 function firstFunction(){
 
-//    let a= prompt("Addition of 3 and 4");
+   let a= prompt("Addition of 3 and 4");
 
-//    if(a==7){
-//        alert("Correct");
-//    }
-//     else{
-//          alert("Incorrect");
+   if(a==7){
+       alert("Correct");
+   }
+    else{
+         alert("Incorrect");
 
-//     }
-
-//enter any same count the words 
-    // let st=prompt("Enter Your Name:");  
+    }
+    let st=prompt("Enter Your Name:");  
     
-    // alert("The length of your name is: "+st.length);
+    alert("The length of your name is: "+st.length);
 
    let show= document.querySelector('#text')
 
@@ -42,15 +40,15 @@ function firstFunction(){
 }
     firstFunction();
 
-// function secondFunction(){
+function secondFunction(){
 
-//     alert("This is a second function");
-// }
-// secondFunction();
+    alert("This is a second function");
+}
+secondFunction();
 
-// function thirdFunction(){
+function thirdFunction(){
 
-//     alert("This is a third function");
-// }
-// thirdFunction();
+    alert("This is a third function");
+}
+thirdFunction();
 

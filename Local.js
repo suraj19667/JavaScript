@@ -34,7 +34,7 @@ let Login=()=>{
         return false
     }
     else{
-        alert("Your Password and Username is Wrong !")
+        alert("Your Password and username is wrong !")
     }
     return false
 }

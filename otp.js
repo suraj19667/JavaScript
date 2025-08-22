@@ -1,13 +1,4 @@
-function generateOTP() { 
-
-	let digits = 
-'0123456789'; 
-	let OTP = ''; 
-	let len = digits.length 
-	for (let i = 0; i < 6; i++) { 
-		OTP += digits[Math.floor(Math.random() * len)]; 
-	} 
-	return OTP; 
-} 
-console.log("OTP of 6 digits: ") 
-console.log(generateOTP());
+function generateOTP() {
+  let otp = Math.floor(100000 + Math.random() * 900000); // 6-digit OTP
+  document.getElementById("otpDisplay").innerText = "Your OTP: " + otp;
+}

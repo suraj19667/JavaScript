@@ -14,7 +14,7 @@ let sendData=()=>{
 
 let show=document.querySelector("#show")
 
-let username=localstorage.getItem("Name")
+let username=localstorage.getItem("Name:")
 let userage=localstorage.getItem("Age")
 show.innerHTML=`Welcome ${username} and Your Age is:  ${userage}`
 

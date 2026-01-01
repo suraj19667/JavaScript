@@ -26,12 +26,16 @@
 
 //for in loop
 
-let student={
-    name:"suraj",
-    rollno:23,
-    mob_no:3232323232,
-    address:"bhopal"
-}
-for (let val in student){
-    console.log("key",val, "value",student[val])
-}
+// let student={
+//     name:"suraj",
+//     rollno:23,
+//     mob_no:3232323232,
+//     address:"bhopal"
+// }
+// for (let val in student){
+//     console.log("key",val, "value",student[val])
+// }
+
+let str=prompt("Enter the Your Full Name");
+
+console.log("username:","@"+str+str.length);

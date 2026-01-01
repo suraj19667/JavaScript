@@ -1,7 +1,9 @@
 let fruits=["apple","mango","grapes","banana"];
 
-let idx=1;
-while(idx<length.fruits){
-    console.log(fruits[idx])
-    idx++
+//for of method
+for (let val of fruits){
+    console.log(val);
+    
 }
+
+
